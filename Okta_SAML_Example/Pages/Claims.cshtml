@@ -6,17 +6,71 @@
 @page
 @model ClaimsModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Business Areas";
 }
 
 <div class="row">
-    <div class="col-md-12">
-        <h2>The users Claims (Iteration on User.Claims)</h2>
-        <p>
-            @foreach (var claim in User.Claims)
-            {
-                <strong>@claim.Type</strong> <br /> <span style="padding-left: 10px">Value: @claim.Value</span> <br />
-            }
-        </p>
+    <div class="col-6 col-sm-12 col-md-6 col-lg-4 col-xl-4 mh-25 mb-4">
+        <div class="card-body">
+            <h5 class="card-title"><b>Universal Credit</b></h5>
+            <p class="card-text">Universal Credit</p>
+        </div>
+        <div class="card-footer text-muted">
+            <span>Universal Credit</span>
+        </div>
+    </div>
+    <div class="col-6 col-sm-12 col-md-6 col-lg-4 col-xl-4 mh-25 mb-4">
+        <div class="card-body">
+            <h5 class="card-title"><b>Personal Independence Payment</b></h5>
+            <p class="card-text">Personal Independence Payment</p>
+        </div>
+        <div class="card-footer text-muted">
+            <span>Personal Independence Payment </span>
+        </div>
+    </div>
+    <div class="col-6 col-sm-12 col-md-6 col-lg-4 col-xl-4 mh-25 mb-4">
+        <div class="card-body">
+            <h5 class="card-title"><b>Personal Independence Payment NI</b></h5>
+            <p class="card-text">Personal Independence Payment NI</p>
+        </div>
+        <div class="card-footer text-muted">
+            <span>Personal Independence Payment NI</span>
+        </div>
+    </div>
+    <div class="col-6 col-sm-12 col-md-6 col-lg-4 col-xl-4 mh-25 mb-4">
+        <div class="card-body">
+            <h5 class="card-title"><b>Income Support</b></h5>
+            <p class="card-text">Income Support</p>
+        </div>
+        <div class="card-footer text-muted">
+            <span>Income Support </span>
+        </div>
+    </div>
+    <div class="col-6 col-sm-12 col-md-6 col-lg-4 col-xl-4 mh-25 mb-4">
+        <div class="card-body">
+            <h5 class="card-title"><b>Income Support</b></h5>
+            <p class="card-text">Income Support</p>
+        </div>
+        <div class="card-footer text-muted">
+            <span>Income Support </span>
+        </div>
+    </div>
+    <div class="col-6 col-sm-12 col-md-6 col-lg-4 col-xl-4 mh-25 mb-4">
+        <div class="card-body">
+            <h5 class="card-title"><b>Attendance Allowance</b></h5>
+            <p class="card-text">Attendance Allowance</p>
+        </div>
+        <div class="card-footer text-muted">
+            <span>Attendance Allowance </span>
+        </div>
+    </div>
+    <div class="col-6 col-sm-12 col-md-6 col-lg-4 col-xl-4 mh-25 mb-4">
+        <div class="card-body">
+            <h5 class="card-title"><b>Bereavement Benefit & Support Payment</b></h5>
+            <p class="card-text">Bereavement Benefit & Support Payment</p>
+        </div>
+        <div class="card-footer text-muted">
+            <span>Bereavement Benefit & Support Payment </span>
+        </div>
     </div>
 </div>
